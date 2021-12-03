@@ -1,7 +1,10 @@
 import './css/App.css';
+import Nav from './components/menu-nav'
 
 function App() {
   return (
+    <>
+    <Nav />
     <div className="App">
       <header className="App-header">
         <p>
@@ -9,6 +12,7 @@ function App() {
         </p>
       </header>
     </div>
+    </>
   );
 }
 
