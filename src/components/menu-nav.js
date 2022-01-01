@@ -1,25 +1,24 @@
 import React from 'react';
+import menuAnimation from '../assets/videos/menu-video-animation.mp4'
 
 const Nav = () => {
+  const openMenu = () => {
+
+  }
+
   return (
-    <nav className="headerelement headerelement2">
-      <div className="lines">
-        <div className="menuline line-1"></div>
-        <div className="menuline line-2"></div>
-        <div className="menuline line-3"></div>
-      </div>
-      <ul className="menuitems">
-        <li className="menuitem menuitem-1">
+    <nav className="nav-container">
+      <ul className="menu-items">
+        <li className="menu-item">
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li className="menuitem menuitem-2">
+        <li className="menu-item">
           <a href="#aboutme">Aboutme</a>
         </li>
-        <li className="menuitem menuitem-3">
+        <li className="menu-item">
           <a href="#contactme">Contact</a>
         </li>
       </ul>
-      <div className="navmenubottom"></div>
     </nav>
   );
 };
