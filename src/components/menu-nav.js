@@ -1,8 +1,11 @@
 import React from 'react';
-import menuAnimation from '../assets/videos/menu-video-animation.mp4'
 
 const Nav = () => {
   return (
+    <>
+    <video autoplay="autoplay" muted id="menu-video">
+    <source src="/assets/videos/menu-video-animation.mp4" type="video/mp4"></source>
+    </video>
     <nav className="nav-container">
       <ul className="menu-items">
         <li className="menu-item">
@@ -16,6 +19,7 @@ const Nav = () => {
         </li>
       </ul>
     </nav>
+    </>
   );
 };
 
