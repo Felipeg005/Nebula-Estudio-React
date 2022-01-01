@@ -4,6 +4,7 @@ import Nav from './menu-nav';
 const Header = () => {
   const [open, openMenu] = useState(false);
   return (
+    <>
     <header className='header'>
       {
         open?
@@ -17,12 +18,13 @@ const Header = () => {
       {
         open?
         <>
-        <button onClick={() => openMenu(false)}>Close</button>
+        <button class="close-button" onClick={() => openMenu(false)}>Close</button>
         <Nav />
         </>
         :null
       }
     </header>
+    </>
   );
 };
 
