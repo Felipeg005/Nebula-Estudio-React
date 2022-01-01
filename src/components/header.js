@@ -1,12 +1,27 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Nav from './menu-nav';
 
 const Header = () => {
+  const [open, openMenu] = useState(false);
   return (
     <header className='header'>
-      <button>Menu</button>
-      <h1>Nebula Estudio</h1>
-      <Nav />
+      {
+        open?
+        null
+        :
+        <>
+        <button onClick={() => openMenu(true)}>Menu</button>
+        <h1 className='logo'>Nebula Estudio</h1>
+        </>
+      }
+      {
+        open?
+        <>
+        <button onClick={() => openMenu(false)}>Close</button>
+        <Nav />
+        </>
+        :null
+      }
     </header>
   );
 };

@@ -2,12 +2,8 @@ import React from 'react';
 import menuAnimation from '../assets/videos/menu-video-animation.mp4'
 
 const Nav = () => {
-  const openMenu = () => {
-
-  }
-
   return (
-    <nav className="nav-container hidden">
+    <nav className="nav-container">
       <ul className="menu-items">
         <li className="menu-item">
           <a href="#portfolio">Portfolio</a>
