@@ -6,3 +6,17 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.nav-container {
+  margin: 0;
+  background-color: gray;
+  height: 100vh;
+}
+
+.menu-items {
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}

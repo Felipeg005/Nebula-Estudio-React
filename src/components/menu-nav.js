@@ -7,7 +7,7 @@ const Nav = () => {
   }
 
   return (
-    <nav className="nav-container">
+    <nav className="nav-container hidden">
       <ul className="menu-items">
         <li className="menu-item">
           <a href="#portfolio">Portfolio</a>

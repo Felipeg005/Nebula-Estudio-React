@@ -1,10 +1,10 @@
 import './css/nav.css';
-import Nav from './components/menu-nav'
+import Header from './components/header';
 
 function App() {
   return (
     <>
-    <Nav />
+    <Header />
     <div className="App">
       <header className="App-header">
         <p>
