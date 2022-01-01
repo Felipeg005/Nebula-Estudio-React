@@ -1,0 +1,30 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-container {
+  color: #f1f1f1;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+#menu-video {
+  z-index: 0;
+  max-width: 100vw;
+  min-height: 100vh;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.menu-items {
+  margin: 0;
+  color: white;
+}
