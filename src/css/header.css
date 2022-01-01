@@ -8,3 +8,13 @@
   width: 100%;
   color: white;
 }
+
+.close-button {
+  position: fixed;
+  right: 1px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  z-index: 2;
+  font-size: 23px;
+}
