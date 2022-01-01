@@ -1,2 +1,6 @@
 @import "./header.css";
 @import "./nav.css";
+
+.welcome-text {
+  color: white;
+}

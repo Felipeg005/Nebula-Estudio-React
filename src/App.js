@@ -7,7 +7,7 @@ function App() {
     <Header />
     <div className="App">
       <header className="App-header">
-        <p>
+        <p className='welcome-text'>
           Hello Nebula Again
         </p>
       </header>
