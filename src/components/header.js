@@ -4,6 +4,7 @@ import Nav from './menu-nav';
 const Header = () => {
   const [open, openMenu] = useState(false);
   return (
+    <>
     <header className='header'>
       {
         open?
@@ -23,6 +24,7 @@ const Header = () => {
         :null
       }
     </header>
+    </>
   );
 };
 
