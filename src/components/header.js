@@ -18,7 +18,7 @@ const Header = () => {
       {
         open?
         <>
-        <button class="close-button" onClick={() => openMenu(false)}>Close</button>
+        <button className="close-button" onClick={() => openMenu(false)}>Close</button>
         <Nav />
         </>
         :null

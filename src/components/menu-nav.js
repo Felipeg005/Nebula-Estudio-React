@@ -1,10 +1,11 @@
 import React from 'react';
+import video from '../videos/menu-video-animation.mp4'
 
 const Nav = () => {
   return (
     <>
-    <video autoplay="autoplay" muted id="menu-video">
-    <source src="/assets/videos/menu-video-animation.mp4" type="video/mp4"></source>
+    <video autoPlay="autoplay" muted id="menu-video">
+    <source src={video} type="video/mp4"></source>
     </video>
     <nav className="nav-container">
       <ul className="menu-items">
