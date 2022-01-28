@@ -36,12 +36,12 @@ a {
 
 @keyframes up-down {
   from {
-    margin-top: -20px;
+    transform: translateY(-500px);
     color: transparent;
   }
 
   to {
-    margin: 30px 0;
+    transform: translateY(0%);
     color: white;
   }
 }
