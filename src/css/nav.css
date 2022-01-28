@@ -30,6 +30,20 @@ a {
   font-family: 'Walkway';
   letter-spacing: 2px;
   text-shadow: 1px 1px 15px white;
+  animation-name: 'up-down';
+  animation-duration: 1s;
+}
+
+@keyframes up-down {
+  from {
+    margin-top: -20px;
+    color: transparent;
+  }
+
+  to {
+    margin: 30px 0;
+    color: white;
+  }
 }
 
 .menu-items {
