@@ -12,3 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Walkway";
+  src: local("Walkway"),
+   url("../fonts/Walkway_rounded.ttf") format("truetype");
+}
