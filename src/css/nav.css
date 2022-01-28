@@ -30,8 +30,9 @@ a {
   font-family: 'Walkway';
   letter-spacing: 2px;
   animation-name: up-down;
-  animation-duration: 2s;
-  animation-delay: 0.7s;
+  color: transparent;
+  animation-duration: 3s;
+  animation-delay: 0.45s;
   animation-fill-mode: forwards;
 }
 
@@ -42,8 +43,8 @@ a {
     color: transparent;
   }
 
-  15% {
-    transform: translateY(-10px);
+  20% {
+    transform: translateY(-50%);
     margin: 30px 0;
     color: white;
     text-shadow: 1px 1px 15px white;
