@@ -29,20 +29,32 @@ a {
   padding: 0;
   font-family: 'Walkway';
   letter-spacing: 2px;
+  color: white;
   text-shadow: 1px 1px 15px white;
   animation-name: up-down;
-  animation-duration: 1s;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
 }
 
 @keyframes up-down {
-  from {
+  0% {
     transform: translateY(-500px);
+    margin: -100px 0;
     color: transparent;
   }
 
-  to {
-    transform: translateY(0%);
+  30% {
+    transform: translateY(-10px);
+    margin: 30px 0;
     color: white;
+    text-shadow: 1px 1px 15px white;
+  }
+
+  100% {
+    transform: translateY(0%);
+    margin: 30px 0;
+    color: white;
+    text-shadow: 1px 1px 15px white;
   }
 }
 
