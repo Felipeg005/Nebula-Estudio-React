@@ -30,7 +30,7 @@ a {
   font-family: 'Walkway';
   letter-spacing: 2px;
   text-shadow: 1px 1px 15px white;
-  animation-name: 'up-down';
+  animation-name: up-down;
   animation-duration: 1s;
 }
 
