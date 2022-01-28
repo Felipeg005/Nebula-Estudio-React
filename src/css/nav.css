@@ -29,7 +29,33 @@ a {
   padding: 0;
   font-family: 'Walkway';
   letter-spacing: 2px;
-  text-shadow: 1px 1px 15px white;
+  animation-name: up-down;
+  color: transparent;
+  animation-duration: 3s;
+  animation-delay: 0.45s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(-500px);
+    margin: -100px 0;
+    color: transparent;
+  }
+
+  20% {
+    transform: translateY(-50%);
+    margin: 30px 0;
+    color: white;
+    text-shadow: 1px 1px 15px white;
+  }
+
+  100% {
+    transform: translateY(0%);
+    margin: 30px 0;
+    color: white;
+    text-shadow: 1px 1px 15px white;
+  }
 }
 
 .menu-items {
@@ -42,5 +68,4 @@ a {
   margin: 30px 0;
   padding: 0px;
   color: white;
-
 }
