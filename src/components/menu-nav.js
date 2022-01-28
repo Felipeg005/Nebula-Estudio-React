@@ -10,13 +10,13 @@ const Nav = () => {
     <nav className="nav-container">
       <ul className="menu-items">
         <li className="menu-item">
-          <a href="#portfolio">Portfolio</a>
+          <a href="#Web Development">Web Development</a>
         </li>
         <li className="menu-item">
-          <a href="#aboutme">Aboutme</a>
+          <a href="#Graphic Design">Graphic Design</a>
         </li>
         <li className="menu-item">
-          <a href="#contactme">Contact</a>
+          <a href="#2D Animation">2D Animation</a>
         </li>
       </ul>
     </nav>
