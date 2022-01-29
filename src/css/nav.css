@@ -32,7 +32,7 @@ a {
   animation-name: up-down;
   color: transparent;
   animation-duration: 3s;
-  animation-delay: 0.45s;
+  animation-delay: 0.35s;
   animation-fill-mode: forwards;
 }
 
@@ -43,7 +43,7 @@ a {
     color: transparent;
   }
 
-  20% {
+  30% {
     transform: translateY(-50%);
     margin: 30px 0;
     color: white;
