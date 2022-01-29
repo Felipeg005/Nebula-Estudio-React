@@ -31,7 +31,7 @@ a {
   letter-spacing: 2px;
   animation-name: up-down;
   color: transparent;
-  animation-duration: 3s;
+  animation-duration: 5.2s;
   animation-delay: 0.35s;
   animation-fill-mode: forwards;
 }
@@ -43,15 +43,15 @@ a {
     color: transparent;
   }
 
-  30% {
-    transform: translateY(-50%);
+  13% {
+    transform: translateY(-40px);
     margin: 30px 0;
     color: white;
     text-shadow: 1px 1px 15px white;
   }
 
   100% {
-    transform: translateY(0%);
+    transform: translateY(0);
     margin: 30px 0;
     color: white;
     text-shadow: 1px 1px 15px white;
