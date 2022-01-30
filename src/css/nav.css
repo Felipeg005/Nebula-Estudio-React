@@ -31,8 +31,8 @@ a {
   letter-spacing: 2px;
   animation-name: up-down;
   color: transparent;
-  animation-duration: 3s;
-  animation-delay: 0.45s;
+  animation-duration: 5.2s;
+  animation-delay: 0.35s;
   animation-fill-mode: forwards;
 }
 
@@ -43,15 +43,15 @@ a {
     color: transparent;
   }
 
-  20% {
-    transform: translateY(-50%);
+  13% {
+    transform: translateY(-40px);
     margin: 30px 0;
     color: white;
     text-shadow: 1px 1px 15px white;
   }
 
   100% {
-    transform: translateY(0%);
+    transform: translateY(0);
     margin: 30px 0;
     color: white;
     text-shadow: 1px 1px 15px white;
@@ -64,7 +64,7 @@ a {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  font-size: 40px;
+  font-size: 35px;
   margin: 30px 0;
   padding: 0px;
   color: white;
