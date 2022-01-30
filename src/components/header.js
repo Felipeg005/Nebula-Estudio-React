@@ -11,8 +11,7 @@ const Header = () => {
         null
         :
         <>
-        <button onClick={() => openMenu(true)}>Menu</button>
-        <h1 className='logo'>Nebula Estudio</h1>
+        <button className="nav-button" onClick={() => openMenu(true)}>Menu</button>
         </>
       }
       {
