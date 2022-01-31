@@ -4,7 +4,7 @@ import logo from '../assets/images/LOGOSIMBOLO.png'
 const Main = () => {
   return (
     <>
-      <main>
+      <main className='main-container'>
         <img className='logo' src={logo}/>
       </main>
     </>

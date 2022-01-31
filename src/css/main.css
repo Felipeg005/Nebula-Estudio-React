@@ -1,3 +1,8 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .logo {
   background: none;
   width: 100px;
