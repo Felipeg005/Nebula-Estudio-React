@@ -8,6 +8,10 @@ body {
   background-image: url(../assets//images/app-stars-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
 
 code {

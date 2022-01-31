@@ -1,5 +1,5 @@
 import React from 'react';
-import video from '../videos/menu-video-animation.mp4'
+import video from '../videos/menu-video-animation.mp4';
 
 const Nav = () => {
   return (

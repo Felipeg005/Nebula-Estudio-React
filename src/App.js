@@ -1,17 +1,12 @@
 import './css/App.css';
 import Header from './components/header';
+import Main from './components/main'
 
 function App() {
   return (
     <>
     <Header />
-    <div className="App">
-      <header className="App-header">
-        <p className='welcome-text'>
-          Hello Nebula Again
-        </p>
-      </header>
-    </div>
+    <Main />
     </>
   );
 }

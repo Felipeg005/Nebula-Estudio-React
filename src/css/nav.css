@@ -11,10 +11,10 @@ a {
   color: #f1f1f1;
   width: 100%;
   position: fixed;
-  z-index: 1;
 }
 
 #menu-video {
+  background-color: black;
   position: fixed;
   z-index: 0;
   max-width: 100vw;
