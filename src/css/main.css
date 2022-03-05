@@ -1,7 +1,7 @@
 .main-container {
   position: fixed;
   left: 0;
-  margin: 0;
+  margin: 70px 0;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -14,4 +14,5 @@
   padding: 0;
   width: 70%;
   height: 100%;
+  z-index: 0;
 }

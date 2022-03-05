@@ -1,8 +1,12 @@
 .header {
+  position: fixed;
+  left: 0;
   margin: 0;
   display: flex;
   justify-content: center;
   padding: 15px 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .close-button {
