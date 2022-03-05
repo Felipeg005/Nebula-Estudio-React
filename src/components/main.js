@@ -11,4 +11,8 @@ const Main = () => {
   );
 };
 
+window.addEventListener('scroll' ,() => {
+  console.log('hi')
+})
+
 export default Main;
