@@ -7,6 +7,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  z-index: 1;
 }
 
 .logo {
@@ -14,5 +15,4 @@
   padding: 0;
   width: 70%;
   height: 100%;
-  z-index: 0;
 }

@@ -1,6 +1,7 @@
 @import "./header.css";
 @import "./nav.css";
 @import "./main.css";
+@import "./scroller.css";
 
 .welcome-text {
   color: white;
